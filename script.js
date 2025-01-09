@@ -101,7 +101,9 @@ document.getElementById("yesBtn").addEventListener("click", () => {
     window.location.href = "choices.html";
 });
 
-const bgMusic = document.getElementById('bgMusic');
-    bgMusic.muted = false; // Unmute after autoplay starts
-    bgMusic.volume = 0.05;
+window.onload = function() {
+    const bgMusic = document.getElementById('bgMusic');
+    bgMusic.volume = 0.5;  // Set volume
+    bgMusic.muted = false; // Ensure it's not muted after page load
+};
 
