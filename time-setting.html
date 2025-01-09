@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Time for Your Activity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Set Time for Our Valentine's date</h2>
+        <label for="eventTitle">Activity:</label>
+        <input type="text" id="eventTitle" value="Valentine's date with wabwabbb">
+        
+        <label for="eventDate">Date:</label>
+        <input type="date" id="eventDate" value="2025-02-14" readonly>
+        
+        <label for="eventTime">Time:</label>
+        <input type="time" id="eventTime">
+        
+        <button id="generateEventBtn">Generate Google Calendar Link</button>
+        <button id="nextPageBtn">Set Reminder</button>
+        <p id="calendarLink"></p>
+    </div>
+    
+    <script src="time-setting.js"></script>
+</body>
+</html>

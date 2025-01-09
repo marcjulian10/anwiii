@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff9ad3 0%, #fad0c4 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 , h3 {
+    font-family: 'Fleur De Leah', cursive;
+    color: #fc8fcf;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-family: 'red hat display', sans-serif;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#yesBtn {
+    background: #fda3f1;
+    color: white;
+}
+
+#yesBtn:hover {
+    background: #d565bb;
+}
+
+#noBtn {
+    background: #813d6a;
+    color: white;
+}
+
+#noBtn:hover {
+    background: #f394de;
+}
+
+.card {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    background-color: #ff4b3a;
+}
+
+.container .card{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+#generateEventBtn{
+    background: #fda3f1;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    font-family: 'red hat display', sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+#generateEventBtn:hover {
+    background: #d565bb;
+}
+
+#nextPageBtn{
+    background: #fda3f1;
+    color: white;
+    padding: 10px 10px;
+    font-size: 1.2em;
+    font-family: 'red hat display', sans-serif;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+#nextPageBtn:hover {
+    background: #d565bb;
+}
+#gif-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
