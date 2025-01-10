@@ -1,7 +1,10 @@
 window.onload = function() {
-    const bgMusic = document.getElementById('bgMusic');
-    bgMusic.volume = 0.5;  // Set volume
-    bgMusic.muted = false; // Ensure it's not muted after page load
+    const bgMusic = document.getElementById('bgMusic1');
+    bgMusic.volume = 0.5; // Set volume to maximum
+    bgMusic.muted = false; // Ensure it's not muted
+    bgMusic.play().catch((error) => {
+        console.error('Autoplay failed:', error);
+    });
 };
 
 const noBtn = document.getElementById("noBtn");
