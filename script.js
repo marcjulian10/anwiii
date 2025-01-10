@@ -1,10 +1,13 @@
-
+window.onload = function() {
+    const bgMusic = document.getElementById('bgMusic');
+    bgMusic.volume = 0.5;  // Set volume
+    bgMusic.muted = false; // Ensure it's not muted after page load
+};
 
 const noBtn = document.getElementById("noBtn");
 const imageContainer = document.getElementById("image-container");
 const images = [
     "wabwabbb/wabwabbb1.jpg",
-    "wabwabbb/wabwabbb2.jpg",
     "wabwabbb/wabwabbb3.jpg",
     "wabwabbb/wabwabbb4.jpg",
     "wabwabbb/wabwabbb5.jpg",
@@ -13,16 +16,11 @@ const images = [
     "wabwabbb/wabwabbb8.jpg",
     "wabwabbb/wabwabbb9.jpg",
     "wabwabbb/wabwabbb10.jpg",
-    "wabwabbb/wabwabbb11.jpg",
-    "wabwabbb/wabwabbb12.jpg",
-    "wabwabbb/wabwabbb13.jpg",
     "wabwabbb/wabwabbb14.jpg",
     "wabwabbb/wabwabbb15.jpg",
     "wabwabbb/wabwabbb16.jpg",
     "wabwabbb/wabwabbb17.jpg",
-    "wabwabbb/wabwabbb18.jpg",
     "wabwabbb/wabwabbb19.jpg",
-    "wabwabbb/wabwabbb20.jpg",
     "wabwabbb/wabwabbb21.jpg",
     "wabwabbb/wabwabbb22.jpg",
     "wabwabbb/wabwabbb23.jpg",
@@ -101,9 +99,5 @@ document.getElementById("yesBtn").addEventListener("click", () => {
     window.location.href = "choices.html";
 });
 
-window.onload = function() {
-    const bgMusic = document.getElementById('bgMusic');
-    bgMusic.volume = 0.5;  // Set volume
-    bgMusic.muted = false; // Ensure it's not muted after page load
-};
+
 
